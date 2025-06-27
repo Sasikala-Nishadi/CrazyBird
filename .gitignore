@@ -1,0 +1,93 @@
+# =============== #
+# Unity generated #
+# =============== #
+[Ll]ibrary/
+[Tt]emp/
+[Bb]uild/
+[Bb]uilds/
+[Oo]bj/
+[Mm]emoryCaptures/
+[Mm]emoryCaptures/
+Assets/AssetStoreTools*
+
+# Auto-generated VS/JetBrains project files
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+
+# Unity3D generated meta files
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Builds
+*.apk
+*.aab
+*.unitypackage
+*.app
+*.exe
+
+# Rider project files
+.idea/
+*.sln.iml
+
+# Visual Studio Code settings
+.vscode/
+
+# Crash logs
+sysinfo.txt
+*.stacktrace
+*.dmp
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# Backup files
+*.bak
+*.swp
+*.tmp
+*.orig
+
+# Unity cache & package manager
+UnityPackageManager/
+UnityPackageManagerCache/
+*.unitypackage
+*.log
+
+# Collaborate files
+.collab/
+
+# PlasticSCM
+.plastic/
+.ignore
+plastic.workspace
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# Auto-generated
+Generated/
+ExportedObj/
+*.apk
+*.aab
+*.ipa
+*.symbols.zip
+
+# Cache server
+Cache/
+
+# Others
+*.vs/
+.vs/
