@@ -1,17 +1,25 @@
 using UnityEngine;
 
+
 public class BirdScript : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     public Rigidbody2D myRigidbody;
 
-    private void Start()
+
+    void Start()
     {
-        
+        // Optional: You can initialize or log something here if needed
+        myRigidbody.freezeRotation = true;
     }
 
-    private void Update()
+    void Update()
     {
-        myRigidbody.linearVelocity = Vector2.up * 10;  
+        if(Input.GetKeyDown(KeyCode.Space) == true)
+        {
+            myRigidbody.linearVelocity = Vector2.up * 10;
+        }
+        
+       
     }
 }
+
